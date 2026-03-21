@@ -1,0 +1,9 @@
+Tenant B Operations Policy
+
+All users must use multi-factor authentication.
+
+Access is role-based and reviewed quarterly.
+
+Unauthorized access attempts must be reported immediately.
+
+Temporary access must include expiration.
