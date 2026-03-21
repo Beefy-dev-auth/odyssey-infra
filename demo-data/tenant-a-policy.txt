@@ -1,0 +1,9 @@
+Tenant A Security Policy
+
+Users must be authenticated before accessing internal systems.
+
+Access to customer data is restricted to approved personnel.
+
+All actions must be logged for audit purposes.
+
+Data exports require approval.
