@@ -4,7 +4,7 @@ Odyssey is built around a simple idea:
 
 AI memory should be observable, scoped, and governable.
 
-Most retrieval systems can return similar chunks. Far fewer systems let developers inspect why those chunks were returned, how memory is isolated, or how retrieval behavior changes over time.
+Most retrieval systems can return similar chunks. Odyssey let developers inspect why those chunks were returned, how memory is isolated, or how retrieval behavior changes over time.
 
 ---
 
@@ -37,14 +37,14 @@ Odyssey is not just a vector store.
 
 It is a governed memory layer.
 
-Memory is not only retrieved — it is also:
+Memory is not only retrieved, it is also:
 
 - scoped
 - inspected
 - logged
 - measured
 
-This is what makes Odyssey infrastructure rather than just storage.
+This is what makes Odyssey more than just storage.
 
 ---
 
@@ -69,7 +69,7 @@ Odyssey retrieval combines multiple ranking signals:
 - recency weighting
 - graph-aware relationships
 
-Most production retrieval problems require multiple signals, not just embeddings.
+Most retrieval problems require multiple signals, not just embeddings.
 
 ---
 
@@ -99,7 +99,7 @@ There they can:
 - analyze scoring behavior
 - export retrieved documents
 
-This inspection capability is central to Odyssey.
+All without calling a model.
 
 Most AI stacks expose only the final answer.
 
