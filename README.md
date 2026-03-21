@@ -1,4 +1,4 @@
-# odyssey-infra
+# odyssey
 Memory RAG for AI Systems
 
 - inspect exactly what is retrieved  
