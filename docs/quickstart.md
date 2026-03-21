@@ -1,6 +1,6 @@
 # Quickstart
 
-Odyssey is a governed memory layer for AI systems. It allows you to ingest knowledge into project-scoped memory, retrieve context through a single API, and inspect what was retrieved inside the Odyssey UI.
+Odyssey is a governed memory RAG for AI systems. It allows you to ingest knowledge into project-scoped memory, retrieve context through a single API, and inspect what was retrieved inside the Odyssey UI.
 
 This quickstart walks through the core flow:
 
@@ -51,8 +51,6 @@ During ingest, Odyssey automatically:
 Example request:
 
 {
-  "user_id": "YOUR_USER_ID",
-  "project_id": "YOUR_PROJECT_ID",
   "text": "Vendor renewals now require finance approval after 2025.",
   "source": "policy_update"
 }
@@ -64,7 +62,7 @@ PDF files can also be uploaded and ingested. Odyssey extracts text, chunks the d
 
 # 3. Retrieve context
 
-Use the retrieve endpoint to query project-scoped memory.
+Use the retrieve endpoint to query project-scoped memory. 
 
 Odyssey retrieval blends:
 
@@ -76,8 +74,6 @@ Odyssey retrieval blends:
 Example request:
 
 {
-  "user_id": "YOUR_USER_ID",
-  "project_id": "YOUR_PROJECT_ID",
   "query": "What changed in the vendor renewal policy?",
   "limit": 5
 }
@@ -98,7 +94,9 @@ From there you can:
 - review scoring behavior
 - export the documents that were retrieved
 
-Instead of treating retrieval as a black box, Odyssey exposes what the system retrieved and how it ranked.
+Utilizing retrieval testing without needing to call a model. 
+
+Instead of treating retrieval as a hidden layer, Odyssey exposes what the system retrieved and how it ranked.
 
 
 - Core model
