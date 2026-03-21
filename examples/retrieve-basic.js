@@ -1,3 +1,4 @@
+```js
 const BASE_URL = process.env.ODYSSEY_BASE_URL
 const API_KEY = process.env.ODYSSEY_API_KEY
 
@@ -19,3 +20,4 @@ async function run() {
 }
 
 run()
+```
