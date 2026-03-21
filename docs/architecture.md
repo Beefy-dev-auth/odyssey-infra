@@ -1,6 +1,6 @@
 # Architecture
 
-Odyssey is designed as a memory infrastructure layer for AI systems.
+Odyssey is designed as a memory RAG layer for AI systems.
 
 It sits between your application and your knowledge base, governing how memory is ingested, retrieved, and inspected.
 
